@@ -51,7 +51,7 @@ Route::get('/movies', function () {
         "actors" => "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
         "plot" => "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
         "posterUrl" => "https://i.ibb.co/FDGqCmM/papers-co-ag74-interstellar-wide-space-film-movie-art-33-iphone6-wallpaper.jpg"
-      ],
+      ]
     ];
     return view('movies', [
         'title' => 'Movies',
