@@ -5,8 +5,7 @@
     @foreach ($movies as $movie)
       <div class="grid-item">
         <div class="container">    
-          <div class="movie">       
-            <div class="menu"><i class="material-icons"></i></div>
+          <div class="movie">
             <div class="movie-img" style="background-image: url({{ $movie["posterUrl"] }})"></div>
             <div class="text-movie-cont">
               <div class="mr-grid">
@@ -21,7 +20,8 @@
               </div>
               <div class="grid-container-button">
                 <div class="watch-btn"><h3><i class="material-icons">&#xE037;</i>SEE DETAILS</h3></div>
-                <div class="action-btn"><i class="material-icons">&#xE161;</i></div>
+                <div class="action-btn"></div>
+                <div class="action-btn"></div>
                 <div class="action-btn"><i class="material-icons">&#xE866;</i></div>
                 <div class="action-btn"><i class="material-icons">&#xE80D;</i>
                 </div>
