@@ -10,6 +10,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/app.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/movie.css')}}">
 
     <!-- Material Icon -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

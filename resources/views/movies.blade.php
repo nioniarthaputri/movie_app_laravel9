@@ -19,7 +19,7 @@
                 </div>
               </div>
               <div class="grid-container-button">
-                <div class="watch-btn"><h3><i class="material-icons">&#xE037;</i>SEE DETAILS</h3></div>
+                <div class="watch-btn"><a href="movies/{{ $movie["slug"] }}" style="text-decoration: none"><h3><i class="material-icons">&#xE037;</i>SEE DETAILS</h3></a></div>
                 <div class="action-btn"></div>
                 <div class="action-btn"></div>
                 <div class="action-btn"><i class="material-icons">&#xE866;</i></div>

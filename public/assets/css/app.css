@@ -8,6 +8,7 @@ body {
   background-size: cover;
   background-repeat: repeat;
   min-width: 1280px;
+  font-family: "Open Sans", sans-serif;
 }
 .grid-container {
   display: grid;
