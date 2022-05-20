@@ -17,7 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home', [
         'title' => 'Home',
-        'description' => 'Ini adalah Home Page'
+        'movies' => Movies::all(),
+        'trending' =>  Movies::allTrending(),
+        'tvShows' =>  Movies::allTvShows(),
+        'blockbusters' =>  Movies::allBlockbusters(),
+        'netflixOriginals' =>  Movies::allNetflixOriginals()
     ]);
 });
 
