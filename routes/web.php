@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\Movies;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,16 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home', [
-        'title' => 'Home',
-        'movies' => Movies::all(),
-        'trending' =>  Movies::allTrending(),
-        'tvShows' =>  Movies::allTvShows(),
-        'blockbusters' =>  Movies::allBlockbusters(),
-        'netflixOriginals' =>  Movies::allNetflixOriginals()
-    ]);
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 Route::get('/movies', function () {
     return view('movies', [
